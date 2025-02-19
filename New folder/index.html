@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="images.jpg">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Browse Movies</a></li>
+                <li><a href="#">Post a Movie</a></li>
+                <li><a href="#">My Account</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="movie-listings">
+            <h2>Movie Listings</h2>
+            <ul id="movie-listings">
+                <!-- Movie listings will be displayed here -->
+            </ul>
+        </section>
+        <section class="post-a-movie">
+            <h2>Post a Movie</h2>
+            <form id="post-movie-form">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title">
+                <label for="description">Description:</label>
+                <textarea id="description" name="description"></textarea>
+                <label for="price">Price:</label>
+                <input type="number" id="price" name="price">
+                <label for="category">Category:</label>
+                <select id="category" name="category">
+                    <option value="action">Action</option>
+                    <option value="comedy">Comedy</option>
+                    <option value="drama">Drama</option>
+                </select>
+                <button id="post-movie-button">Post Movie</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Movie Marketplace</p>
+    </footer>
+
+
+<!-- My Account Section -->
+
+<section class="my-account">
+    <h2>My Account</h2>
+    <ul>
+        <li><a href="#">My Movie Listings</a></li>
+        <li><a href="#">My Purchases</a></li>
+        <li><a href="#">My Sales</a></li>
+        <li><a href="#">Edit Profile</a></li>
+        <li><a href="#">Logout</a></li>
+    </ul>
+</section>
+
+<!-- Browse Movies Section -->
+
+<section class="browse-movies">
+    <h2>Browse Movies</h2>
+    <ul>
+        <li><a href="#">Action Movies</a></li>
+        <li><a href="#">Comedy Movies</a></li>
+        <li><a href="#">Drama Movies</a></li>
+        <li><a href="#">Horror Movies</a></li>
+        <li><a href="#">Romance Movies</a></li>
+    </ul>
+</section>
+
+<!-- Search Bar Section -->
+
+<section class="search-bar">
+    <h2>Search for Movies</h2>
+    <form>
+        <input type="text" id="search-input" name="search-input">
+        <button id="search-button">Search</button>
+    </form>
+</section>
+
+
+
+<!-- Movie Details Section -->
+
+<section class="movie-details">
+    <h2>Movie Details</h2>
+    <div class="movie-poster">
+        <img src="movie-poster.jpg" alt="Movie Poster">
+    </div>
+    <div class="movie-info">
+        <h3>Movie Title</h3>
+        <p>Movie Description</p>
+        <p>Price: $10.99</p>
+        <button>Buy Now</button>
+    </div>
+</section>
+
+<!-- User Profile Section -->
+
+<section class="user-profile">
+    <h2>User Profile</h2>
+    <div class="user-info">
+        <h3>Username</h3>
+        <p>Email: JohnsonJankumi@gmail.com</p>
+        <p>Phone: 0597112052</p>
+    </div>
+    <div class="user-movie-listings">
+        <h3>Movie Listings</h3>
+        <ul>
+            <li>Movie 1</li>
+            <li>Movie 2</li>
+            <li>Movie 3</li>
+        </ul>
+    </div>
+</section>
+
+<!-- Footer Section -->
+
+<footer>
+    <p>&copy; 2025 Movie Marketplace</p>
+    <ul>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
